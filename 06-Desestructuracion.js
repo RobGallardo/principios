@@ -21,7 +21,7 @@ console.log (persona);
 // }
 
 // Uso adecuado 
-const retornaPersona = ({ nombre, edad, rango = 'Dios' }) => {
+const useContext = ({ nombre, edad, rango = 'Dios' }) => {
     //console.log( nombre, edad, rango )
     return {
         nombreClave: clave,
